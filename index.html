@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Flor 🌸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Bienvenida 🌸</h1>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre...">
+    <button onclick="iniciar()">Iniciar ✨</button>
+  </div>
+
+  <div class="main-content" style="display:none;">
+    <h2>🌷 Esta página es para ti 🌷</h2>
+    <div class="gallery">
+      <div class="photo flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">Toca</div>
+          <div class="flip-card-back"><img src="1.jpg" alt="Foto 1"></div>
+        </div>
+      </div>
+      <div class="photo flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">Toca</div>
+          <div class="flip-card-back"><img src="2.jpg" alt="Foto 2"></div>
+        </div>
+      </div>
+      <div class="photo flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">Toca</div>
+          <div class="flip-card-back"><img src="3.jpg" alt="Foto 3"></div>
+        </div>
+      </div>
+      <div class="photo flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">Toca</div>
+          <div class="flip-card-back"><img src="4.JPG" alt="Foto 4"></div>
+        </div>
+      </div>
+    </div>
+    <button onclick="mostrarMensaje()">💌 Mensaje Especial</button>
+    <p id="mensaje"></p>
+    <p id="emojis"></p>
+  </div>
+
+  <!-- Contenedor para los corazones flotantes -->
+  <div id="hearts-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
